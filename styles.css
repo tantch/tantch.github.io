@@ -1,0 +1,29 @@
+.prenav {
+  background-color: #D2E1D2;
+  height:4rem;
+}
+.navbar {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid;
+  border-bottom-color: #d7ac87;
+}
+.navbar-brand {
+  border: 1.5px solid #5A9357;
+  border-radius: 13px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: #5A9357;
+}
+.navbar-nav, .pull-xs-right {
+  margin-right: 2rem;
+}
+.navbar-nav > li {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.navbar-nav > li > a {
+  color: #5A9357;
+}
+.navbar-nav > .active > a {
+  color: #638dcd;
+}

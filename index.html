@@ -9,13 +9,29 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 
 <body>
-  <nav class="navbar navbar-light" style="background-color: #5fde5c;">
+  <div class="prenav">
+  <nav class="navbar" style="background-color: #D2E1D2;">
     <a class="navbar-brand" href="#">Melhor navbar</a>
+    <button class="navbar-toggler hidden-sm-up  pull-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+      &#9776;
+    </button>
+    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+      <ul class="nav navbar-nav pull-xs-right">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+      </ul>
+    </div>
   </nav>
-  <h1>Hello, world!</h1>
+</div>
 
   <!-- jQuery first, then Bootstrap JS. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
