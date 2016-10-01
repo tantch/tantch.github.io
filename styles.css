@@ -38,7 +38,6 @@
   margin-top: -0.15rem;
 }
 #intro {
-  margin-top: 4rem;
   background: rgba(62, 168, 76, 0.2);
   height: 100%;
   width: 100%;
@@ -53,4 +52,14 @@
   padding-top: 15rem;
   padding-bottom: 15rem;
   width: 100%;
+}
+#intro-text {
+  padding-top: 6rem;
+}
+
+@media only screen and (max-width: 991px) {
+    /* For mobile phones: */
+    #intro-text {
+      padding-top: 0;
+    }
 }
