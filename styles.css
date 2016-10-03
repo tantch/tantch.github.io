@@ -1,65 +1,83 @@
 .body {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
+
 .container-fluid {
-  padding: 0;
+    padding: 0;
 }
+
 .navbar {
-  position: fixed;
-  width: 100%;
-  border-radius: 0;
-  border-top: 2px solid #144719;
-  background-color: #FFF;
+    position: fixed;
+    width: 100%;
+    border-radius: 0;
+    border-top: 2px solid #144719;
+    background-color: #FFF;
 }
+
 .navbar-brand {
-  border-radius: 13px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  color: #3d713a;
+    border-radius: 13px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #3d713a;
 }
+
 .navbar-nav, .pull-xs-right {
-  margin-right: 2rem;
+    margin-right: 2rem;
 }
-.navbar-nav > li {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  margin-top: 0;
+
+.navbar-nav>li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 0;
 }
-.navbar-nav > li > a {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  color: #5A9357;
+
+.navbar-nav>li>a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #5A9357;
 }
-.navbar-nav > .active > a {
-  color: #638dcd;
-  border-radius: 0;
-  border-top: 0.15rem solid #144719;
-  margin-top: -0.15rem;
+
+.navbar-nav>.active>a {
+    color: #638dcd;
+    border-radius: 0;
+    border-top: 0.15rem solid #144719;
+    margin-top: -0.15rem;
 }
+
 #intro {
-  background: rgba(62, 168, 76, 0.2);
-  height: 100%;
-  width: 100%;
-  position: relative;
-  box-sizing: border-box;
-  padding: 0;
-  z-index: -1;
+    background: rgba(62, 168, 76, 0.2);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    z-index: -1;
 }
-#intro > div {
-  text-align: center;
-  background: none;
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-  width: 100%;
+
+#intro>div {
+    text-align: center;
+    background: none;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    margin-bottom: 0;
+    width: 100%;
 }
+
 #intro-text {
-  padding-top: 6rem;
+    padding-top: 6rem;
+}
+
+#about {
+}
+
+#about>div {
+  background: rgb(255, 253, 253);
+
 }
 
 @media only screen and (max-width: 991px) {
-    /* For mobile phones: */
     #intro-text {
-      padding-top: 0;
+        padding-top: 0;
     }
 }
